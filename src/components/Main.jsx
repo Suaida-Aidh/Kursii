@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Main.css";
-import logo from '../images/white-logo.svg'
-import { FaFacebook, FaInstagram } from 'react-icons/fa'; // Importing icons from react-icons
+import logo from '../images/white-logo.svg';
+import { FaWhatsapp, FaInstagram } from 'react-icons/fa'; // Importing WhatsApp and Instagram icons
 
 const Main = () => {
   return (
@@ -28,8 +28,12 @@ const Main = () => {
 
             {/* Social Media Icons */}
             <div className="icon-container">
-              <FaFacebook size={30} color="#fff" />
-              <FaInstagram size={30} color="#fff" />
+              <a href="https://wa.me/919072583344" target="_blank" rel="noopener noreferrer">
+                <FaWhatsapp size={30} color="#fff" />
+              </a>
+              <a href="https://www.instagram.com/kursii.in/" target="_blank" rel="noopener noreferrer">
+                <FaInstagram size={30} color="#fff" />
+              </a>
             </div>
           </div>
         </div>
