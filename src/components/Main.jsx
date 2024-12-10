@@ -24,7 +24,9 @@ const Main = () => {
           
           {/* Bottom Section */}
           <div className="bottom-section">
-            <button className="action-button">Contact us</button>
+            <button className="action-button"
+            onClick={() => window.open('https://wa.me/919072583344', '_blank')}
+            >Contact us</button>
 
             {/* Social Media Icons */}
             <div className="icon-container">
